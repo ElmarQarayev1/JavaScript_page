@@ -1,0 +1,98 @@
+
+        *{
+            box-sizing: border-box;
+        }
+        .backgroundC{
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover;
+            background-image: url(/Task1/img/photo-1497436072909-60f360e1d4b1.jpg);
+            height: 130vh;
+        }
+        .svgg{
+            width: 70px;
+        }
+        label{
+            font-size: 15px;
+            color: gray;
+        }
+        input::placeholder{
+            color: gray;
+            font-size: 18px;
+        }
+        .h1p h1{
+            font-family: Poppins, sans-serif;
+            font-weight: bold;
+        }
+        .h1p p{
+            font-size: 18px;
+            color: gray;
+        }
+        .buttonn{
+            font-size: 27px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            background-color:  rgb(46, 98, 252);
+            width: 400px;
+            transition: 0.5s;
+        }
+        .buttonn:hover{
+            background-color:rgb(7, 91, 195) ;
+        }
+       .orr{
+        color: gray;
+       }
+       .btnfg{
+           border-bottom: none;
+           border-right: none;
+           font-size: 15px;
+           font-weight: bold;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;        
+            background-color:  rgb(255, 255, 255);
+            letter-spacing: 5px;
+            width: 400px;
+            transition: 0.2s;
+       }
+       .facebook{
+        border: 1px solid rgb(51, 74, 249);
+        color: rgb(51, 74, 249);     
+       }
+       .facebook:hover{
+        color: rgb(255, 255, 255);  
+        background-color: rgb(51, 74, 249); 
+       }
+       .google{
+        border: 1px solid rgb(55, 55, 55);
+        color: rgb(50, 50, 50);     
+       }
+       .google:hover{
+        color: white;
+        background-color: rgb(80, 80, 80);
+       }
+        .google i{
+        font-size: 25px;
+        padding-right: 40px;
+       }
+       .facebook i{
+            font-size: 25px;
+            padding-right: 20px; 
+       }
+       .foot{
+        color: gray;
+       }
+       .setting{
+        top: 170px;
+        right: 0;
+        width: 70px;
+        height: 60px;
+        background-color: rgb(51, 74, 249);
+        
+       }
+       .setting i{
+        padding: 20px 25px;
+        font-size: 20px;
+        color: white;
+       }
+       .fixx{
+        position: fixed;
+       }
