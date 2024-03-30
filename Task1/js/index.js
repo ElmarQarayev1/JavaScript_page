@@ -60,10 +60,10 @@ form.addEventListener("submit", function(e) {
     commonCheck = CheckValidations();
     if(commonCheck){
         toast.style.display="block";
-        setTimeout(myGreeting, 5000);
+        setTimeout(toastDisplay, 5000);
     }
 });
-function myGreeting() {
+function toastDisplay() {
     toast.style.display="none";
   }
 
